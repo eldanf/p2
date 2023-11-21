@@ -1,0 +1,45 @@
+html{
+    font-family: 'Changa', sans-serif;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(90,168,183,0.7)  ,rgba(90,168,183,0.7) ),
+    url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    box-shadow: 0 3px 7px rgb(94, 88, 88);
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: white;
+}
+.cord-e{
+  
+    box-shadow:2px 2px 6px rgb(13, 69, 172) ;
+}
+.cord-a{
+   
+    box-shadow:2px 2px 6px rgb(50, 50, 51) ;
+}
+hr{
+   margin-left: auto;
+   margin-right: auto ;
+}
+#per img{
+    margin-top: -50px;
+}
+
+
+
+
+@media screen and (min-width:480px) {
+    #per img{
+       margin-top: -70px;
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+    
+}
